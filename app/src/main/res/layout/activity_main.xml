@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,10 +7,56 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="kr.hs.emirim.dbwlsdud0407.myapp.MainActivity">
+    tools:context="kr.hs.emirim.dbwlsdud0407.myapp.MainActivity"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/but_start"
+        android:layout_width="match_parent"
+        android:layout_height="64dip"
+        android:text="@string/Img_str"
+        android:layout_weight="0"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+    <ViewFlipper
+        android:id="@+id/but_flip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/american_01"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@drawable/american_02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@drawable/american_03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@drawable/american_04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@drawable/american_05"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@drawable/american_06"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+        android:src="@drawable/american_07"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/but_stop"
+            android:layout_width="match_parent"
+            android:layout_height="64dip"
+            android:text="@string/Img_end"
+            android:layout_weight="0"/>
+
+
+    </ViewFlipper>
+
+</LinearLayout>

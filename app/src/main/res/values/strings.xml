@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">MyApp</string>
+    <string name="app_name">결정장애 물리치기</string>
+    <string name="Img_str">START</string>
+    <string name="Img_end">STOP</string>
 </resources>
