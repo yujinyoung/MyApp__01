@@ -9,13 +9,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="kr.hs.emirim.dbwlsdud0407.myapp.MainActivity"
     android:orientation="vertical">
-    <Button
+ <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content">
+     <Button
         android:id="@+id/but_start"
         android:layout_width="match_parent"
         android:layout_height="64dip"
         android:text="@string/Img_str"
         android:layout_weight="0"/>
-
+     <Button
+        android:id="@+id/but_stop"
+        android:layout_width="match_parent"
+        android:layout_height="64dip"
+        android:text="@string/Img_end"
+        android:layout_weight="0"/>
+</LinearLayout>
     <ViewFlipper
         android:id="@+id/but_flip"
         android:layout_width="match_parent"
@@ -49,14 +58,5 @@
         android:src="@drawable/american_07"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-        <Button
-            android:id="@+id/but_stop"
-            android:layout_width="match_parent"
-            android:layout_height="64dip"
-            android:text="@string/Img_end"
-            android:layout_weight="0"/>
-
-
     </ViewFlipper>
-
 </LinearLayout>
