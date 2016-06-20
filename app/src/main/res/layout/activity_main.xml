@@ -11,19 +11,21 @@
     android:orientation="vertical">
  <LinearLayout
         android:layout_width="230dp"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+     >
      <Button
         android:id="@+id/but_start"
-        android:layout_width="match_parent"
-        android:layout_height="64dip"
-        android:text="@string/Img_str"
-        android:layout_weight="0"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/img_str"
+       />
      <Button
-        android:id="@+id/but_stop"
-        android:layout_width="match_parent"
-        android:layout_height="64dip"
-        android:text="@string/Img_end"
-        android:layout_weight="0"/>
+         android:id="@+id/but_stop"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/img_end"
+         />
 </LinearLayout>
     <ViewFlipper
         android:id="@+id/but_flip"
