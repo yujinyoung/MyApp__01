@@ -4,19 +4,36 @@
     android:layout_height="match_parent">
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#9ed9d5">
     <Button
         android:id="@+id/but_kor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="한식"/>
+        android:layout_width="200dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="100dp"
+        android:text="@string/kor"
+        android:onClick="korean"
+        android:background="#f5baba"
+        android:layout_gravity="center_horizontal" />
     <Button
         android:id="@+id/but_japen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="일식"/>
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/japen"
+        android:onClick="japenes"
+        android:background="#fdebbe"
+        android:layout_gravity="center_horizontal" />
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:id="@+id/but_china"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/china"
+        android:onClick="china"
+        android:background="#9ed9a6"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
 </LinearLayout>

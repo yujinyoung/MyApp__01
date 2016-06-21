@@ -2,6 +2,10 @@
     <string name="app_name">결정장애 물리치기</string>
     <string name="img_str">START</string>
     <string name="img_end">STOP</string>
+    <string name="kor">한식</string>
+    <string name="japen">일식</string>
+    <string name="china">중식</string>
+    <string name="menu">메뉴를 선택하세요</string>
 
 </resources>
 

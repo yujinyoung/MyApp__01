@@ -7,14 +7,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ViewFlipper;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class ImageActivity extends AppCompatActivity implements View.OnClickListener{
     ViewFlipper flip;
     EditText editTime;
     int time;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_image);
         flip=(ViewFlipper)findViewById(R.id.but_flip);
         Button butstr=(Button)findViewById(R.id.but_start);
         butstr.setOnClickListener(this);
@@ -33,5 +33,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         }
     }
-    }
+
+
+
+}
+
 
